@@ -42,37 +42,51 @@ git clone https://github.com/AmmarMorched/WebUI-element-classification-model-fas
 cd WebUI-element-classification-model-fastapi-springboot
 
 ### 2.  FastAPI Application Setup
+
+
 create a virtual enviroment
 ```bash
 python -m venv venv
 
+
 Install Python Dependencies
 on windows:
+
 
 ```bash
 venv\Scripts\activate
 
+
 on linux:
+
 
 ```bash
 source venv/bin/activate
 
+
 the install requirement lib
+
 
 ```bash
 pip install -r requirements.txt
 
+
 run the application
+
 
 ```bash
 uvicorn app:app --host 0.0.0.0 --port 8000
 
 
 ### 3. Springboot application setup
+
+
 you just need to build and run the project
 
 
 ### Usage:
+
+
 using a tool like postman copy and past the url from the controller
 in the parameter choose body
 set key to file and in the value choose the image you want to process.
