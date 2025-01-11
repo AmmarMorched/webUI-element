@@ -48,6 +48,7 @@ cd WebUI-element-classification-model-fastapi-springboot
 create a virtual enviroment
 ```bash
 python -m venv venv
+```
 
 
 Install Python Dependencies
@@ -56,6 +57,7 @@ on windows:
 
 ```bash
 venv\Scripts\activate
+```
 
 
 on linux:
@@ -63,6 +65,7 @@ on linux:
 
 ```bash
 source venv/bin/activate
+```
 
 
 the install requirement lib
@@ -70,6 +73,7 @@ the install requirement lib
 
 ```bash
 pip install -r requirements.txt
+```
 
 
 run the application
@@ -77,6 +81,7 @@ run the application
 
 ```bash
 uvicorn app:app --host 0.0.0.0 --port 8000
+```
 
 
 ### 3. Springboot application setup
