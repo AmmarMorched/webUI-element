@@ -40,6 +40,7 @@ The main objective is to classify web UI elements.
 ```bash
 git clone https://github.com/AmmarMorched/WebUI-element-classification-model-fastapi-springboot.git
 cd WebUI-element-classification-model-fastapi-springboot
+```
 
 ### 2.  FastAPI Application Setup
 
