@@ -68,7 +68,7 @@ source venv/bin/activate
 ```
 
 
-the install requirement lib
+then install requirement lib
 
 
 ```bash
